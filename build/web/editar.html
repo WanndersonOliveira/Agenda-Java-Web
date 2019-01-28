@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Agenda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            #titulo{
+                position: absolute;
+                left: 45%;
+                top: 20px;
+                font-size: 20pt;
+            }
+            
+            #subtitulo, #nome, #botao{
+                position: absolute;
+                left: 45%;
+                top: 80px;
+            }
+            
+            #nome{
+                top: 120px;
+            }
+            
+            #botao{
+                top: 150px;
+            }
+            
+        </style>
+        
+        <p id="titulo">Agenda</p>
+        <p id="subtitulo">Contato a ser editado</p>
+        <form action="editio" method="get">
+            <input type="text" size="30" name="nome" id="nome" placeholder="Nome">
+            <input type="submit" value="Editar" id="botao">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Agenda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            #titulo{
+                position: absolute;
+                left: 45%;
+                top: 20px;
+                font-size: 20pt;
+            }
+            
+            #subtitulo1,#subtitulo2, #nome, #telefone, #email, #rua, #estado, #numero, #cidade, #bairro, #botao{
+                position: absolute;
+                left: 20%;
+                top: 100px;
+            }
+            
+            #subtitulo1{
+                font-size: 14pt;
+                top: 40px;
+            }
+            
+            #subtitulo2{
+                font-size: 14pt;
+                top: 190px;
+            }
+            
+            #telefone{
+                top: 130px;
+            }
+            
+            #email{
+                top: 160px;
+            }
+            
+            #rua{
+                top: 240px;
+            }
+            
+            #numero{
+                top: 270px;
+            }
+            
+            #bairro{
+                top: 310px;
+            }
+            
+            #cidade{
+                top: 340px;
+            }
+            
+            #estado{
+                top: 370px;
+            }
+            
+            #botao{
+                top: 410px;
+            }
+            
+        </style>
+        <div id="titulo">Agenda</div>
+        <p id="subtitulo1">Contato</p>
+        <form method="get" action="edicao">
+            <input type="text" size="30" placeholder="Nome" name="nome" id="nome">
+            <input type="text" size="14" placeholder="Tel" name="tel" id="telefone">
+            <input type="text" size="20" placeholder="Email" name="email" id="email">
+            <input type="text" size="20" placeholder="Rua" name="rua" id="rua">
+            <input type="text" size="5" placeholder="Número" name="numero" id="numero">
+            <input type="text" size="15" placeholder="Bairro" name="bairro" id="bairro">
+            <input type="text" size="20" placeholder="Cidade" name="cidade" id="cidade">
+            <input type="text" size="25" placeholder="Estado" name="estado" id="estado">
+            <input type="submit" value="Cadastrar" id="botao">
+        </form>
+        <p id="subtitulo2">Endereço</p>
+    </body>
+</html>
